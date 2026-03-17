@@ -1,0 +1,104 @@
+/* Page styling */
+body{
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Center the card on screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 20px;
+}
+
+
+/* Profile Card */
+.profile-card{
+
+    /* Box Model */
+    padding: 60px;            /* spacing inside card */
+    border: 2px solid #ddd;   /* card boundary */
+    margin: 20px;             /* space outside card */
+
+    width: 400px;
+
+    background-color: white;
+
+    /* Rounded corners */
+    border-radius: 20px;
+
+    /* Text alignment */
+    text-align: center;
+
+    /* Soft shadow for better UI */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+
+/* Name Styling */
+.name{
+    font-size: 28px;
+    font-weight: bold;
+
+    /* letter spacing for typography */
+    letter-spacing: 1px;
+
+    margin-bottom: 5px;
+}
+
+
+/* Role Styling */
+.role{
+    color: #555;
+
+    font-size: 18px;
+
+    /* underline decoration */
+    text-decoration: underline;
+
+    margin-bottom: 15px;
+}
+
+
+/* Bio paragraph */
+.bio{
+
+    font-size: 15px;
+
+    /* better readability */
+    line-height: 1.6;
+
+    margin-bottom: 25px;
+}
+
+
+/* Contact Button */
+.contact-btn{
+
+    padding: 10px 20px;
+
+    border: none;
+
+    background-color: #007bff;
+
+    color: white;
+
+    font-size: 16px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    /* smooth hover animation */
+    transition: 0.3s;
+}
+
+
+/* Button Hover Effect */
+.contact-btn:hover{
+
+    background-color: #0056b3;
+
+    transform: scale(1.05);
+}
